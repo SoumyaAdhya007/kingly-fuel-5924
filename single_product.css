@@ -1,0 +1,28 @@
+body{
+    font-family: 'Prompt', sans-serif;
+}
+#single-product{
+    width: 90%;
+    margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+/* grid-template-rows: auto; */
+gap: 20px;
+
+}
+#single-product>div:nth-child(2){
+    /* height: 100%;
+    width: 40%; */
+    border: 1px solid red;
+}
+#single-product>div:nth-child(1){
+    /* width: 50%;
+    height: 100%; */
+    /* margin-left: 20px; */
+    border: 1px solid black;
+}
+
+#single-product>div>h3{
+    text-align: center;
+    color: #F4511E;
+}

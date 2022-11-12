@@ -1,0 +1,116 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+   } 
+  body{
+    font-family: 'Prompt', sans-serif;
+  }
+
+#top-head{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background: black;
+    color:white ;
+    padding-top: 5px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+#navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 110%;
+    width: 140px;
+}
+#navbar>.navtag{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 30%;
+    margin-left: 80px;
+}
+#navbar>.navtag>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 17px;
+    /* font-family: monospace; */
+}
+#navbar>.navtag>ul>li>a{
+    color: black;
+
+}
+#navbar>.navtag>ul>li>a:hover{
+    color: #F4511E;
+    text-decoration: underline;
+
+}
+#navbar>.navlogo {
+    margin: 30px;
+    /* margin-right: 10px; */
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar>.navtag>ul>li {
+    color: black;
+    padding: 13px;
+}
+ a{
+    color: black;
+}
+form{
+    width: 30%;
+    margin: auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+form>input{
+    padding: 10px;
+    font-size: large;
+    border: none;
+    /* margin-top: 30px; */
+    margin: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     */
+     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+     /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+form>h1{
+    text-align: center;
+    margin-bottom: 88px;
+}
+form>div{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+form>div>a{
+    margin-left: 5px;
+    color: aqua;
+}
+input:hover{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+input[type=submit]{
+    background-color: #263238;
+    color: white;
+}
+input[type=submit]:hover{
+    background-color: #CFD8DC;
+    color: black;
+}
+footer{
+    background-color: #212121;
+    height: auto;
+    width: 100%;
+    color: #BDBDBD;
+
+
+}
