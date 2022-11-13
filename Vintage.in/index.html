@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shoping Side</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f90c67bbfa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header>
+        <div id="top-head">
+            <h4>FOR ONLINE PAYMENT EXTRA ₹5% DISCOUNT ON ORDERS ABOVE ₹500.</h4>
+        </div>
+
+
+        <div id="navbar">
+            <a href="./index.html" class="tag-logo"><img src="./Img/Vintage.in_Logo-removebg-preview.png" class="logo" alt="logoImg"></a>
+            <div class="navtag">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutus.html">About Us</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="#categorie">Categories</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navlogo">
+                <!-- <a href="#"> <i class="fa fa-light fa-magnifying-glass"></i></a> -->
+                <a href="./signin.html"> <i class="fa fa-light fa-user"></i></a>
+                <a href="./wishlist.html"> <i class="fa fa-light fa-heart"></i></a>
+                <a href="./cart.html"> <i class="fa fa-thin fa-bag-shopping"></i> </a>
+            </div>
+        </div>
+    </header>
+    <!-- Image slider  -->
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="./Img/Slider Img 1.jpg" style="width:100%">
+        <img class="mySlides" src="./Img/Silder Img 2.jpeg" style="width:100%">
+        <img class="mySlides" src="./Img/Slide Img 3.png" style="width:100%">
+        <img class="mySlides" src="./Img/Slide Img 4.jpg" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+        <div class="hover-container">
+            <div class="hover-img">
+                <figure><a href="./shop.html"> <img src="./Img/kithchen-tools.jpg" /></a></figure>
+            </div>
+            <div class="hover-img">
+                <figure><a href="./shop.html"> <img src="./Img/Air-Tight-Containers.jpg" /></a></figure>
+            </div>
+            <div class="hover-img">
+                <figure><a href="./shop.html"> <img src="./Img/Health & Personal Care.jpg" /></a></figure>
+                <!-- <H3>Health & Personal Care</H3> -->
+            </div>
+    </div>
+    <div class="shop-category">
+        <h1>Shop By Category</h1>
+        <p>Clothing</p>
+        <div class="shop-nav-one">
+            <ul>
+                <li><a href="./shop.html" id="men">Men's Fashion</a></li>
+                <li><a href="./shop.html">Women's Fashion</a></li>
+                <li><a href="./shop.html">T-shirts</a></li>
+                <li><a href="./shop.html" id="jew">Jewellery</a></li>
+                <li><a href="./shop.html">Air Tight Containers</a></li>
+                <li><a href="./shop.html">Kitchen Tools</a></li>
+                <li><a href="./shop.html">Health & Personal Care</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hover-category-container">
+        <div class="hover-category-img">
+            <figure><a href="./shop.html"> <img src="./Img/Bathroom banner2-1.jpg" /></a></figure>
+            <div class="acc-shop">
+                <h1>Bathroom Accessories</h1>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        <div class="hover-category-img">
+            <figure><a href="./shop.html"> <img src="./Img/Electic Appliances Banner1-1-1.jpg" /></a></figure>
+            <div class="acc-shop">
+                <h1>Electric Appliance</h1>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        <div class="hover-category-img">
+            <figure><a href="./shop.html"> <img src="./Img/Clothing banner3-1.jpg" /></a></figure>
+            <div class="acc-shop">
+                <h1>Clothing</h1>
+                <button>Shop Now</button>
+            </div>
+            <!-- <H3>Health & Personal Care</H3> -->
+        </div>
+        <div class="hover-category-img">
+            <figure><a href="./shop.html"> <img src="./Img/Jewellery Banner Img.jpg " /></a></figure>
+            <div class="acc-shop">
+                <h1>Jewellery</h1>
+                <button>Shop Now</button>
+            </div>
+            <!-- <H3>Health & Personal Care</H3> -->
+        </div>
+    </div>
+    <div id="bestsell">
+        <h1>Best Selling Product</h1>
+        <div id="bestsell-div">
+
+        </div>
+    </div>
+    <div id="new">
+        <h1>New Arrivals</h1>
+        <div id="newpro"></div>
+    </div>
+    <div id="ultimateShoping">
+        <h1>The Ultimate Domestic Online Shopping Experience Platform in India</h1>
+        <p>Online shopping with Uboric is quick, convenient and trouble-free. You can shop for the desired product right
+            from the comfort of your home and get them delivered straight to your doorstep. Uboric offers you the chance
+            to choose top branded products sitting in the comfort of your homes and just clicking on your requirements
+            to get it delivered at your doorstep. Your search for the latest trending variety of unique products ends
+            right here. A wide range of international products from global brands are available at your fingertips. We
+            provide you with a world-class online shopping experience, along with superior service, to suit all your
+            specific requirements. Our products are very reasonably priced and are not easily available elsewhere. Our
+            high-end technology-based systems, combined with a human approach, ensure that you have an amazing and
+            blissful online shopping experience with us. Our emphasis on customer delight drives every activity we
+            undertake to provide you an ultimate, hassle-free and pleasant shopping experience. Our diverse categories
+            of products comprise of fashion & jewellery, mobiles and tablets, home and furniture, electronics, health
+            care and supplements, sports and fitness, beauty and perfumes. We offer almost every variety of product that
+            your heart desires. Just Go Ahead and Explore the magical world of online shopping with Uboric! 24×7
+            Customer Care: For all your queries and concerns regarding your shopping orders.</p>
+
+    </div>
+    <div id="benifites">
+        <div>
+            <h1>Benefits Of Shopping</h1>
+            <h4>User-Friendly</h4>
+            <h4>Safe & Secure Shopping</h4>
+            <h4>Check Out Closely</h4>
+            <h4>Multiple Payment Options</h4>
+            <h4>Order History</h4>
+          <a href="./shop.html"><button>Shop Now</button></a>  
+        </div>
+        <div>
+            <img src="./Img/Benefits Of Shopping.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="benifites-logo">
+        <div>
+            <img src="./Img/B1.png" alt="">
+            <div>
+                <h4>FREE SHIPPING</h4>
+                <p>From all orders over Rs 500</p>
+            </div>
+        </div>
+        <div>
+            <img src="./Img/B2.png" alt="">
+            <div>
+                <h4>FREE RETURNS</h4>
+                <p>Return money within 30 days</p>
+            </div>
+        </div>
+        <div>
+            <img src="./Img/B3.png" alt="">
+            <div>
+                <h4>SECURE SHOPPING</h4>
+                <p>You're in safe hands</p>
+            </div>
+        </div>
+        <div>
+            <img src="./Img/B4.png" alt="">
+            <div>
+                <h4>OVER 10,000 STYLES</h4>
+                <p>We have everything you need</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="subs">
+            <h2>Want style Ideas and Treats?</h2>
+            <form>
+                <input type="email" placeholder="Enter Email*">
+                <input type="submit" placeholder="Subscribe">
+            </form>
+        </div>
+        <hr>
+        <div id="details">
+            <img src="./Img/Vintage transparent Logo-fococlipping-standard.png" alt="footerlogo">
+            <div>
+                <P><b>SUPPORT</b> </P>
+                <p><a href="./aboutus.html">About Us</a> </p>
+                <p><a href="./contactus.html">Contact Us</a> </p>
+            </div>
+            <div>
+                <p><b>SHOP</b></p>
+                <p>My account</p>
+            </div>
+            <div>
+                <p><b>COMPANY</b></p>
+                <p>Shipping & Returns</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div>
+                <p><b>CONTACT</b></p>
+                <p>Customer Care</p>
+                <p>Contact Support Available</p>
+                <p>Mon To Sat : 10:00 Am to 6:00 Pm</p>
+                <p>E-mail</p>
+                <p>uboricllp@gmail.com</p>
+                <p>Mobile</p>
+                <p>+91 97243 82162</p>
+                <p>+91 82000 99386</p>
+            </div>
+        </div>
+        <hr>
+        <div id="bottom-footer">
+            <div>
+                <p>© 2019 – 2022 UBORIC. ALL RIGHTS RESERVED.</p>
+
+            </div>
+            <div>
+                <i class="fa fa-brands fa-facebook-f"></i>
+                <i class="fa fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="./index.js"></script>
+<!-- <script src="./shop.js"></script> -->
